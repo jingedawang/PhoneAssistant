@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:paddingTop="0.0dip"
+  android:paddingBottom="0.0dip"
+  android:background="@drawable/expand_column_bg">
+  <ImageView 
+  		android:id="@+id/contactIcon"
+  		android:padding="4.0dip"
+  		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scaleType="fitCenter"
+  		android:layout_marginLeft="10.0dip"
+		android:layout_marginTop="5.0dip"
+		android:layout_marginBottom="5.0dip"
+  		android:src="@drawable/h015"
+  		/>
+  <LinearLayout
+  		android:layout_height="wrap_content"
+  		android:layout_weight="1"
+  		android:layout_width="fill_parent"
+  		android:layout_marginLeft="5.0dip"
+		android:layout_marginTop="9.0dip"
+  		android:orientation="vertical">
+  		
+  		<TextView
+  			android:textColor="#FFFFF8DC"
+  			android:textSize="16px"
+  			android:id="@+id/name"
+  			android:layout_marginRight="5.0dip"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:singleLine="true"
+  			android:text="name"
+  			
+  		/>
+  		
+  		<TextView android:id="@+id/description"
+         android:textSize="14.0px"
+         android:textColor="#7FFFFFF0"
+         android:text="description"
+         android:ellipsize="marquee"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="5.0dip"
+         android:singleLine="true"
+		 android:marqueeRepeatLimit="1"
+         />
+  		
+  </LinearLayout>
+  
+  <ImageView
+		android:id="@+id/myCursor"
+		android:clickable="true"
+		android:layout_marginTop="5dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:src="@drawable/my007"
+		>
+	</ImageView>
+  
+</LinearLayout>

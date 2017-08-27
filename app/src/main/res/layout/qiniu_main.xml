@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:text="断点续上传" />
+
+    <Button
+        android:id="@+id/backup_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="通讯录备份" />
+
+    <Button
+        android:id="@+id/backup_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/backup_contacts"
+        android:layout_alignRight="@+id/backup_contacts"
+        android:layout_below="@+id/backup_contacts"
+        android:layout_marginTop="24dp"
+        android:text="短信备份" />
+
+    <Button
+        android:id="@+id/backup_passwordbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/backup_message"
+        android:layout_alignRight="@+id/backup_message"
+        android:layout_centerVertical="true"
+        android:text="密码本备份" />
+
+    <Button
+        android:id="@+id/backup_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/backup_passwordbook"
+        android:layout_alignRight="@+id/backup_passwordbook"
+        android:layout_below="@+id/backup_passwordbook"
+        android:layout_marginTop="30dp"
+        android:text="相册备份" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="30dp"
+        android:text="" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/backup_passwordbook"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+         />
+
+</RelativeLayout>

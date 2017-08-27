@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/airreader"
+    android:icon="@drawable/settings"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".EntryActivity" >
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestureOverlayView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gestureStrokeType="multiple" >
+
+        
+
+    </android.gesture.GestureOverlayView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_entry"
+        android:layout_alignTop="@+id/btn_entry"
+        android:layout_toLeftOf="@+id/btn_entry"
+        android:gravity="center_vertical"
+        android:text="@string/enter"
+        android:textColor="#aaaaaa"
+        android:textSize="40px" />
+    
+    <ImageButton
+        android:id="@+id/btn_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/arrow6" />
+
+</RelativeLayout>

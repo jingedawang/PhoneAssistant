@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#FF000080" 
+  android:id="@+id/top_bar">
+		<AutoCompleteTextView android:id="@+id/search"
+			android:layout_width="fill_parent"                
+		 	android:layout_height="wrap_content"
+		 	android:layout_weight="1"
+		 	android:hint="搜索联系人"
+		 	android:layout_marginTop="10dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginBottom="10dip"/>
+		<ImageButton android:id="@+id/add_contact" 
+			android:layout_marginTop="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="10dip"
+			android:clickable="true"
+			android:src="@drawable/contact_add_button" 
+			android:layout_width="48dp" android:layout_height="48dp"/>		
+</LinearLayout>

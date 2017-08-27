@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:paddingTop="2.0dip"
+    android:paddingBottom="2.0dip"
+    android:background="@drawable/expand_column_bg_over1"
+	>
+	<TextView
+		android:textSize="16.0dip"
+		android:textColor="#FFFFF8DC"
+		android:layout_marginTop="5.0dip"
+		android:id="@+id/groupName"
+		android:layout_width="wrap_content"
+		android:layout_height="30.0dip"
+		android:layout_marginLeft="35.0dip"
+		android:gravity="center_vertical"
+		android:singleLine="true"
+		android:text="student"
+		>
+	</TextView>
+	<TextView
+		android:textSize="14.0dip"
+		android:textColor="#7DFFFFF0"
+		android:layout_marginTop="5.0dip"
+		android:id="@+id/groupCount"
+		android:layout_width="wrap_content"
+		android:gravity="center_vertical"
+		android:layout_height="30.0dip"
+		android:layout_marginLeft="10.0dip"
+		android:singleLine="true"
+		android:text="[20]"
+		>
+	</TextView>
+</LinearLayout>

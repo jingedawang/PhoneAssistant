@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/bottomContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <!-- layout_alignParentRight  控制该子组件是否与布局容器右边对齐 -->
+        <!-- android:onClick="btnSend_Click" 点击跳转执行函数btnSend_Click -->
+
+        <Button
+            android:id="@+id/btnSendSms"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="btnSend_Click"
+            android:text="@string/send" />
+
+        <!-- android:layout_toLeftOf="@id/btnSendSms" 控制该子组件位于 btnSendSms组件的左方 -->
+
+        <EditText
+            android:id="@+id/etSmsContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/btnSendSms"
+            android:hint="@string/addtext" />
+    </RelativeLayout>
+
+    <!-- android:layout_above="@id/bottomContainer" 控制该子组件位于 bottomContainer组件的上方 -->
+
+    <ListView
+        android:id="@+id/list_ShowSmsDataS"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottomContainer" />
+
+</RelativeLayout>

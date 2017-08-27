@@ -1,0 +1,10 @@
+<resources>  
+	<style name="mytextstyle" >  
+	   
+		<item name="android:textSize">30px</item>  
+		<item name="android:textColor">#FFFF0000</item>  
+		<item name="android:textStyle">bold</item>  
+		<item name="android:typeface">serif </item>  
+	      
+	</style>  
+</resources>  

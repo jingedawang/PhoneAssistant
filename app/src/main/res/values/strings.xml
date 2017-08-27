@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AirReader</string>
+    <string name="entry_name">AirReader</string>
+    <string name="settings_name">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="entry">entry</string>
+    <string name="help">Help</string>
+	<string name="about">About</string>
+    <string name="notfind">notfind</string>
+    <string name="find">find</string>
+    <string name="notfull">notfull</string>
+    <string name="welcome">Set gesture</string>
+    <string name="privacyzone">My Privacy Zone</string>
+    <string name="phoneprivacyassistant">Phone Privacy Assistant</string>
+    <string name="backup">Backup</string>
+    <string name="set">Set</string>
+    <string name="enter">enter</string>
+    
+    <string name="hello">Hello World, ContactsManager!</string>
+    <string name="use_photo_as_primary" >使用此头像</string>
+    <string name="changePicture" >更改头像</string>
+    <string name="removePicture" >删除头像</string>
+    <string name="attachToContact">好友头像</string>
+    <string name="take_photo">拍照</string>
+    <string name="pick_photo">从图库中选择一张</string>
+    <string name="photoPickerNotFoundText" >照相机没拍到照片</string>
+    <string name="photoPickerNotFoundText1" >手机里面没有照片</string>
+    <string name="photoPickerNotFoundText2" >剪辑照片出错</string>
+    <string name="spinner_group">加入分组</string>
+    
+    <!-- These are strings used by AppLock -->
+	<string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="cancel1">Cancel</string>
+    <string name="Itemabout">友情提示</string>
+    <string name="Itemsettings">显示设置</string>
+    <string name="toasttile">友情提示</string>
+    <string name="inputpasswd">此程序需要密码才能打开</string>
+    <string name="protecton">应用程序保护(开)</string>
+	<string name="protectoff">应用程序保护(关)</string>
+    <string name="setpaswd">更改手势密码</string>
+    <string name="setpaswdtitle">请输入新的手势密码</string>
+    <string name="confirmpaswdtitle">确认手势密码</string>  
+    <string name="texttitle">由于您是第一次进入本程序，请输入一个手势(文字或符号)作为保护应用程序的初始密码，如果需要更改密码，进入程序后请在“更改手势密码”中完成。</string>      
+    <string name="info">手势解锁程序条件\n(1)解锁手势的笔迹、笔画总数应和密码手势的一致;\n(2)解锁手势的笔画总长度与密码手势的误差应该小于20%。\n注意：以上条件任何一个不满足都不能解锁。</string>
+    <string name="welcomeyou">WELCOME，第一次进入本程序需要设置初始手势密码</string>
+    <string name="setpaswdsuccess">手势密码设置成功</string>
+    <string name="paswdright">手势密码正确</string>
+    <string name="paswdwrong">手势密码错误</string>   
+    <string name="paswdright1">密码保护问题答案正确</string>
+    <string name="paswdwrong1">密码保护问题答案错误</string>      
+    <string name="forgetpaswdtext">请输入您的密码保护问题(当忘记手势密码时可以通过它进入本程序)</string> 
+    <string name="forgetpaswdans">请输入您的密码保护问题答案</string> 
+    <string name="forgetpaswdtitle">忘记手势？设置密码保护</string> 
+    <string name="waittitle">请等待...</string> 
+    <string name="wait">请稍候，系统正在完成初始化...</string> 
+	<string name="setforgetpaswdsuccess">密码保护设置成功</string>	
+	<string name="findpaswd">忘记密码</string>	
+    <string name="forgetpaswdtext1">密码保护问题</string> 
+    <string name="forgetpaswdans1">请输入密码保护问题答案</string> 	
+    <string name="forgetpaswdtitle1">通过密码保护进入程序</string>      
+    <string name="noforgetpaswd1">您还没有设置密码保护</string> 
+    <string name="noforgetpaswd2">点击确定直接进入程序</string> 	 	
+    <string name="exitinfo">您确定要退出吗？</string> 
+    <string name="exittitle">系统提示</string> 
+    <string name="choosedayornight">请选择界面布局风格</string> 
+    <string name="chooseday">白天风格</string> 
+    <string name="choosenight">夜晚风格</string> 
+    <string name="customstyle">主界面风格选择</string>  
+    <string name="item1">设置密码保护</string>  
+  	<string name="item2">友情提示</string>  
+  	<string name="enterapassword">Enter a Password</string>
+  	<string name="applockmodifypassword">AppLock     Modify Password</string>
+  	<string name="loadingapplications">Loading Applications</string>
+    
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="application_name">Gestures Builder</string>
+    <!-- Title, name of the activity used to create a gesture -->
+    <string name="label_create_gesture">Create a gesture</string>
+
+    <!-- Buttons -->
+    <skip />
+    <!-- Label, button used to add a gesture -->
+    <string name="button_add">Modify</string>
+    <!-- Label, button used to reload all gestures -->
+    <string name="button_reload">Reload</string>
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <string name="button_discard">Discard</string>
+    <!-- Label, button used to save a gesture newly created -->
+    <string name="button_done">Done</string>
+    <string name="finished">Finish</string>
+    
+    <!-- Gestures -->
+    <skip />
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <string name="prompt_gesture_name">Name</string>
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <string name="error_missing_name">You must enter a name</string>
+    <!-- success message, tells the user where the gesture was saved -->
+    <string name="save_success">Gesture saved in %s</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="rename_action">OK</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="cancel_action">Cancel</string>
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <string name="gestures_loading">Loading gestures...</string>
+    <!-- Message displayed when the user has no gestures -->
+    <string name="gestures_empty">No gestures </string>
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="gestures_activity">Gestures</string>
+    <!-- Noun, menu item used to rename a gesture -->
+    <string name="gestures_rename">Rename</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="gestures_delete">Delete</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="gestures_delete_success">Gesture deleted</string>
+    <!-- Title of dialog box -->
+    <string name="gestures_rename_title">Rename gesture</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="gestures_rename_label">Gesture name</string>
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures -->
+    <string name="gestures_error_loading">Could not load %s. Make sure you have a mounted SD card.</string>
+    <string name="notice">Welcome to use the Phone Privacy Assistant, please click to set the unlock gesture.</string>
+    
+    <string name="contact_main">Contacts</string>
+    <string name="sms_main">Messaging</string>
+    <string name="passwordbook_main">PasswordBook</string>
+    <string name="lock_main">AppLock</string>
+    <string name="picture_main">Album</string>
+    <string name="settings_main">Settings</string>
+    <string name="account">Account:</string>
+    <string name="account_number">UserName:</string>
+    <string name="account_password">Password:</string>
+    <string name="account_add">Add Account</string>
+    <string name="account_modifypassword">Modify Login Password</string>
+    <string name="account_confirm">Confirm</string>
+    <string name="typenewpassword">Enter a new Password</string>
+    <string name="typepassword">Enter the Password</string>
+    
+    <string name="passwordcannotbeempty">Password can not be empty</string>
+    <string name="passwordwrong">Wrong password</string>
+    <string name="contactnotfind">Contact not find</string>
+    <string name="deletesuccessful">Delete successful</string>
+    <string name="movecontactsuccessfully">Move contact successfully to group </string>
+    <string name="alreadyexist">already exist!</string>
+    <string name="addedsuccessfully">Added successfully!</string>
+    <string name="addgroup">Add group</string>
+    <string name="suretodeletegroup">Are you sure to delete the group and all the contacts in it?</string>
+    <string name="inputnewgroupname">Please input a new group name</string>
+    <string name="modifiedsuccessfully">Modified successfully</string>
+    <string name="namecannotbeempty">Name can not be empty</string>
+    <string name="numbercannotbeempty">Number can not be empty</string>
+    <string name="addcontactsuccessfully">Add contact successfully</string>
+    <string name="addcontactfailure">Add contact failure</string>
+    <string name="updatecontactsuccessfully">Update contact successfully</string>
+	<string name="updatecontactfailure">Update contact failure</string>
+	
+	<string name="send">Send</string>
+	<string name="add">Add</string>
+	<string name="recipient">Recipient</string>
+	<string name="addtext">Add text</string>
+	<string name="confirm">Confirm</string>
+	<string name="newSMS">New</string>
+	<string name="delete">Delete</string>
+	<string name="newmessage">New Message</string>
+	
+	<string name="help_contact">\t\t通讯录实现了私密联系人的隔离存储，通讯录内的这些私密联系人的数据不会被其他应用读取。而且电话号码在数据库中以加密形式存储以保证安全。</string>
+	<string name="help_sms">\t\t发送的短信都经过加密，保证用户隐私不泄露。即使是收到的未经加密信息，仍然可以手动加解密。</string>
+	<string name="help_password">\t\t用户可将自己常用的账户和密码保存起来防止忘记，密码在数据库中以密文方式存储。</string>
+	<string name="help_appLock">\t\t用户可以将需要保护的应用加锁。</string>
+	
+</resources>

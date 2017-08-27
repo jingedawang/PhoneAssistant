@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/aes/base64/AESMessage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/aes/base64/BackAES.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/aes/base64/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/AppInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/AppInfoProvider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/AppLockActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/AppLockDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/AppLockProvider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/AppLockrDBHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/LockScreenActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/LockScreenReceiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/MD5Encoder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/TaskInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/TaskInfoProvider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/TaskUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/TextFormater.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/WatchDogService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/applock/setPassWordActicity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/contacts/ContactsManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/contacts/ContactsManagerDbAdater.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/contacts/EditContact.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/contacts/MyConstant.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/contacts/MyContacts.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/contacts/PhotoEditorView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/gallery/DatabaseHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/gallery/GalleryView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/gallery/Grallery3DActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/gallery/ImageAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/gallery/sqlite.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/gesturebuilder/CreateGestureActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/gesturebuilder/GestureBuilderActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/password/DatabaseHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/password/PasswordAddActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/password/PasswordMainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/password/entryactivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bit/password/sqlite.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/qiniu/demo/DatabaseHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/qiniu/demo/MyActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/qiniu/demo/sqlite.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/SMSMainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/deleteSMS.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/draftSMS.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/draft_delete_SMS.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/draft_forwardSMS.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/forwardingSMS.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/receiveSMS.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/sendSMS.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/setPhoneNumberActicity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/watchdata/mysms/showSMS.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wjg/phoneassistant/AboutActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wjg/phoneassistant/EntryActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wjg/phoneassistant/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wjg/phoneassistant/WelcomeActivity.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

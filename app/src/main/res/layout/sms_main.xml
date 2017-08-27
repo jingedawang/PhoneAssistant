@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 定义一个List -->
+
+    <ListView
+        android:id="@+id/mylist1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/test_bottom_buttons" >
+    </ListView>
+
+    <!-- Button 置底 android:id="@id/test_bottom_buttons" -->
+
+    <LinearLayout
+        android:id="@+id/test_bottom_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#c0000000"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/newSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newSMS" />
+    </LinearLayout>
+
+</RelativeLayout>

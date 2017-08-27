@@ -1,0 +1,6 @@
+BUG列表
+bug7-14-1 
+	summary：从sendSMS发送短信时，进入CreateGesture手势绘制界面，直接按返回则出现异常。
+	solution：在返回到sendSMS界面准备发送短信前，在private void sendSMSByNew(int requestCode, int resultCode,
+			Intent data)中判断是否从CreateGesture取回了publicKey，如果没有，则取消发送动作。
+			

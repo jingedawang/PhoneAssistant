@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+     
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="0dip"
+    	android:layout_weight="1"
+    	android:layout_marginTop="20dp"
+    	
+    	android:gravity="center"
+    	 >
+        
+        <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="200dip"
+	        android:layout_height="342dip"
+	        android:layout_marginBottom="30dp"
+	        android:src="@drawable/main_cut" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="0dip"
+    	android:layout_weight="0.8"
+    	android:orientation="horizontal"
+    	android:gravity="center"
+    	android:layout_marginTop="20dp"
+    	android:layout_marginBottom="20dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+		android:paddingLeft="50dip"
+        android:text="私密联系人\n私密短信\n密码本\n程序锁\n私密相册"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txt_guide_final"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+		android:paddingLeft="40dip"
+        android:layout_weight="1"
+        android:text="让隐私\n不再泄露！！" />
+    
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 按钮在被点击的时候的背景 -->
+  <item android:state_pressed="true" android:drawable="@drawable/item_background_selected"></item>
+  <!-- 获取焦点-->
+  <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/item_background"/>
+  <!-- 按钮是一般状态下 -->
+  <item android:drawable="@drawable/item_background"></item>
+  
+  <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/item_background"></item>
+</selector>

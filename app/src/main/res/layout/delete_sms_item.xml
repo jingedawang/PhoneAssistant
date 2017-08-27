@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/list_deleteSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="4dp" >
+        
+        <CheckBox 
+            android:id="@+id/choose_deleteSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:paddingRight="25sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/smsWho_deleteSMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/smsContent_deleteSMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:maxLines="1" />
+        </LinearLayout>
+
+        
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:gravity="right"
+  android:background="@drawable/login_input">
+  	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="right">
+	    <Button 
+		android:id="@+id/btnSms" 
+		android:focusable="true"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/sms_icon"
+		android:layout_margin="5dip" />
+		
+		<Button 
+			android:id="@+id/btnEmail" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:background="@drawable/email_icon"
+			android:focusable="true"
+			android:layout_marginLeft="5dip"
+			android:layout_marginTop="5dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginBottom="5dip" />
+   
+	    <Button 
+			android:id="@+id/btnCall" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:focusable="true"
+			android:background="@drawable/call_icon"
+			android:layout_marginLeft="5dip"
+			android:layout_marginTop="5dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="5dip" />
+			
+		
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/bottom_draft_delete_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/draft_delete"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:text="删除"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/draft_cancel"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:text="取消"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/draft_deleteSMS_ShowData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_draft_delete_cancel" >
+    </ListView>
+
+</RelativeLayout>
